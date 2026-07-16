@@ -1,213 +1,307 @@
-# ☁️ Miniguia de Estudos - Computação em Nuvem e Infraestrutura com NotebookLM
+# ☁️ Miniguia de Estudos: Computação em Nuvem e Infraestrutura com NotebookLM
 
-📌 Descrição
+## 📌 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte do desafio da DIO utilizando o NotebookLM como ferramenta de aprendizagem ativa.
+Este projeto foi desenvolvido como parte de um desafio da **DIO (Digital Innovation One)**, utilizando o NotebookLM como ferramenta de aprendizagem ativa.
 
-O objetivo foi organizar conteúdos sobre Computação em Nuvem e Infraestrutura, explorando recursos de Inteligência Artificial para resumir documentos, esclarecer conceitos, gerar perguntas de revisão e construir um material de estudo reutilizável.
+O objetivo foi explorar como a Inteligência Artificial pode auxiliar no processo de estudo, organização de informações e construção de conhecimento técnico.
 
----
-
-🎯 Objetivos
-
-* Compreender os fundamentos da Computação em Nuvem.
-* Conhecer os principais modelos de serviço (IaaS, PaaS e SaaS).
-* Entender os modelos de implantação (Nuvem Pública, Privada e Híbrida).
-* Estudar conceitos de virtualização, redes e armazenamento em nuvem.
-* Aprender boas práticas de segurança na infraestrutura em nuvem.
-* Utilizar o NotebookLM para organizar o conhecimento e revisar conteúdos.
+O tema escolhido foi **Computação em Nuvem e Infraestrutura**, uma área fundamental para profissionais de tecnologia, envolvendo conceitos como servidores, redes, virtualização, armazenamento e segurança em ambientes Cloud.
 
 ---
 
-📚 Curadoria de Fontes
+# 🎯 Objetivos
 
-As seguintes fontes foram utilizadas no NotebookLM para gerar resumos e apoiar os estudos:
+Durante este estudo, busquei:
 
-1. Microsoft Learn – Introdução à Computação em Nuvem.
-2. AWS Cloud Practitioner Essentials.
-3. Google Cloud – Conceitos Fundamentais de Cloud Computing.
-4. Documentação oficial da Azure sobre Arquitetura de Nuvem.
-5. Guia da CNCF (Cloud Native Computing Foundation) sobre tecnologias Cloud Native.
-
----
-
-💬 Engenharia de Prompts
-
-## Prompt 1
-
-**Explique Computação em Nuvem como se eu fosse um estudante iniciante.**
-
-**Resultado:**
-Foi gerada uma explicação simples, destacando os benefícios da nuvem e comparando o uso de servidores locais com serviços hospedados na internet.
-
-**Aprendizado:**
-Ideal para iniciar o estudo do tema.
+- Compreender os fundamentos da Computação em Nuvem;
+- Entender os modelos de serviço Cloud;
+- Conhecer conceitos de infraestrutura e virtualização;
+- Estudar práticas de segurança em ambientes de nuvem;
+- Desenvolver habilidades de Engenharia de Prompts;
+- Utilizar IA como ferramenta de apoio ao aprendizado.
 
 ---
 
-## Prompt 2
+# ☁️ Tema Estudado
 
-**Compare IaaS, PaaS e SaaS em uma tabela com exemplos práticos.**
+## Computação em Nuvem e Infraestrutura
 
-**Resultado:**
-O NotebookLM apresentou uma tabela organizada mostrando as diferenças entre os modelos de serviço.
+Computação em Nuvem é um modelo que permite utilizar recursos computacionais através da internet, como servidores, armazenamento, bancos de dados e redes.
 
-**Dificuldade encontrada:**
-A primeira resposta tinha poucos exemplos.
+Ao invés de uma empresa manter toda uma infraestrutura física própria, ela pode utilizar recursos fornecidos por grandes provedores de nuvem.
 
-**Ajuste realizado:**
-Solicitei exemplos utilizados por empresas e aplicações do dia a dia.
+Principais conceitos estudados:
 
----
-
-## Prompt 3
-
-**Resuma os principais conceitos em tópicos para revisão rápida.**
-
-**Resultado:**
-Foi criado um resumo objetivo, facilitando a revisão antes de avaliações.
+- Cloud Computing;
+- Data Centers;
+- Virtualização;
+- Máquinas Virtuais;
+- Redes;
+- Armazenamento;
+- Segurança;
+- Alta disponibilidade;
+- Escalabilidade.
 
 ---
 
-## Prompt 4
+# 📚 Curadoria de Fontes
 
-**Crie 10 perguntas de múltipla escolha sobre Computação em Nuvem.**
+As fontes utilizadas no NotebookLM foram:
 
-**Resultado:**
-Excelente material para autoavaliação e fixação dos conceitos.
+## AWS - Amazon Web Services
 
----
+AWS Cloud Practitioner Essentials
 
-⚠️ Troubleshooting
+https://aws.amazon.com/pt/training/digital/aws-cloud-practitioner-essentials/
 
-Durante os testes com o NotebookLM foram observadas algumas situações:
-
-* respostas muito resumidas;
-* ausência de exemplos práticos;
-* excesso de detalhes em alguns tópicos.
-
-Para melhorar os resultados, utilizei prompts mais específicos, informando o formato desejado, o nível de detalhamento e a necessidade de exemplos.
+Conteúdos:
+- Fundamentos de Cloud;
+- Serviços AWS;
+- Segurança;
+- Escalabilidade.
 
 ---
 
-📖 Miniguia de Estudos
+## Microsoft Azure
 
-## O que é Computação em Nuvem?
+Fundamentos de Computação em Nuvem
 
-Computação em Nuvem é o fornecimento de recursos de tecnologia (como servidores, armazenamento, bancos de dados, redes e softwares) por meio da internet, permitindo escalabilidade, alta disponibilidade e pagamento conforme o uso.
+https://learn.microsoft.com/pt-br/training/modules/describe-cloud-service-types/
+
+Conteúdos:
+- IaaS;
+- PaaS;
+- SaaS;
+- Modelos de implantação.
 
 ---
 
-## Modelos de Serviço
+## Google Cloud
+
+Introdução à Computação em Nuvem
+
+https://cloud.google.com/learn/what-is-cloud-computing?hl=pt-br
+
+Conteúdos:
+- Infraestrutura Cloud;
+- Benefícios da nuvem;
+- Serviços gerenciados.
+
+---
+
+## IBM Cloud
+
+Conceitos de Cloud Computing
+
+https://www.ibm.com/br-pt/topics/cloud-computing
+
+Conteúdos:
+- Conceitos fundamentais;
+- Casos de uso;
+- Evolução da nuvem.
+
+---
+
+## CNCF - Cloud Native Computing Foundation
+
+https://www.cncf.io/
+
+Conteúdos:
+- Containers;
+- Kubernetes;
+- Aplicações Cloud Native.
+
+---
+
+# 🖼️ Evidências do NotebookLM
+
+## Fontes adicionadas
+
+As fontes foram inseridas no NotebookLM para análise e geração de conhecimento.
+
+![Fontes NotebookLM](imagens/screencapture-notebooklm-google-notebook.png)
+
+
+---
+
+# 🤖 Engenharia de Prompts
+
+Durante o estudo foram realizados testes de prompts buscando melhorar a qualidade das respostas geradas pela IA.
+
+---
+
+## Prompt 1 - Explicação inicial
+
+### Pergunta:
+
+> Explique Computação em Nuvem para um estudante iniciante de infraestrutura de TI.
+
+### Resultado:
+
+O NotebookLM apresentou uma explicação dos conceitos básicos de Cloud Computing, comparando infraestrutura tradicional com ambientes em nuvem.
+
+### Aprendizado:
+
+Prompts mais específicos geram respostas mais direcionadas ao objetivo do estudo.
+
+Imagem:
+
+![Prompt 1](imagens/MelhoraComEngDePrompt_1.png)
+
+---
+
+# Prompt 2 - Melhoria do Prompt
+
+### Primeira tentativa:
+
+> Explique cloud computing.
+
+### Problema encontrado:
+
+A resposta foi muito genérica e apresentou poucos exemplos técnicos.
+
+---
+
+### Prompt melhorado:
+
+> Explique Computação em Nuvem para um estudante de infraestrutura de TI, incluindo servidores, redes, armazenamento e segurança.
+
+### Resultado:
+
+A resposta apresentou maior profundidade e exemplos mais próximos da realidade profissional.
+
+Imagem:
+
+![Melhoria Prompt](imagens/MelhoraEngPrompt2.png)
+
+---
+
+# 🩹 Cicatrizes e Troubleshooting
+
+Durante o uso do NotebookLM encontrei alguns desafios:
+
+## Respostas superficiais
+
+**Problema:**
+Perguntas muito curtas geravam respostas genéricas.
+
+**Solução:**
+Detalhar melhor o contexto e informar o nível de conhecimento esperado.
+
+---
+
+## Excesso de informações
+
+**Problema:**
+Algumas respostas apresentavam muitos detalhes.
+
+**Solução:**
+Solicitar respostas organizadas em tópicos, tabelas e resumos.
+
+Imagem:
+
+![Cicatrizes NotebookLM](imagens/QuestCicatrizDoLM_3.png)
+
+---
+
+# 📖 Miniguia de Estudos
+
+## Modelos de Serviço Cloud
 
 ### IaaS (Infrastructure as a Service)
 
-Disponibiliza infraestrutura virtualizada, como máquinas virtuais, armazenamento e redes.
+Fornece infraestrutura virtualizada.
 
 Exemplos:
 
-* Amazon EC2
-* Azure Virtual Machines
-* Google Compute Engine
+- Máquinas virtuais;
+- Redes;
+- Armazenamento.
+
+---
 
 ### PaaS (Platform as a Service)
 
-Oferece um ambiente completo para desenvolvimento e implantação de aplicações sem a necessidade de gerenciar servidores.
+Fornece uma plataforma pronta para desenvolvimento de aplicações.
 
 Exemplos:
 
-* Azure App Service
-* Google App Engine
+- Ambientes gerenciados;
+- Ferramentas de desenvolvimento.
+
+---
 
 ### SaaS (Software as a Service)
 
-Aplicações prontas para uso, acessadas diretamente pela internet.
+Disponibiliza softwares através da internet.
 
 Exemplos:
 
-* Microsoft 365
-* Google Workspace
-* Salesforce
+- Sistemas corporativos;
+- Aplicações online.
 
 ---
 
-## Modelos de Implantação
+# 🔐 Segurança em Nuvem
 
-### Nuvem Pública
+Principais práticas:
 
-Infraestrutura compartilhada fornecida por provedores como AWS, Azure e Google Cloud.
-
-### Nuvem Privada
-
-Infraestrutura exclusiva para uma única organização.
-
-### Nuvem Híbrida
-
-Combina recursos locais com serviços em nuvem.
+- Autenticação multifator;
+- Controle de acesso;
+- Criptografia;
+- Monitoramento;
+- Backup;
+- Recuperação de desastres.
 
 ---
 
-## Principais Benefícios
+# 📘 Glossário
 
-* Escalabilidade
-* Alta disponibilidade
-* Redução de custos
-* Elasticidade
-* Segurança
-* Backup automatizado
-* Recuperação de desastres
-
----
-
-## Segurança em Nuvem
-
-Boas práticas:
-
-* Autenticação multifator (MFA)
-* Controle de acesso baseado em funções (RBAC)
-* Criptografia de dados
-* Monitoramento contínuo
-* Backups periódicos
-* Atualizações de segurança
+| Termo | Definição |
+|-|-|
+| Cloud Computing | Uso de recursos computacionais pela internet |
+| Data Center | Local onde servidores são armazenados |
+| Virtualização | Criação de recursos virtuais através de software |
+| Máquina Virtual | Computador criado virtualmente |
+| IaaS | Infraestrutura como Serviço |
+| PaaS | Plataforma como Serviço |
+| SaaS | Software como Serviço |
+| Escalabilidade | Capacidade de aumentar recursos conforme demanda |
+| Alta disponibilidade | Garantia de funcionamento contínuo |
+| Backup | Cópia de segurança dos dados |
 
 ---
 
-📘 Glossário
+# 🚀 Prompts Reutilizáveis
 
-| Conceito             | Definição                                                      |
-| -------------------- | -------------------------------------------------------------- |
-| Cloud Computing      | Fornecimento de recursos computacionais pela internet.         |
-| IaaS                 | Infraestrutura como Serviço.                                   |
-| PaaS                 | Plataforma como Serviço.                                       |
-| SaaS                 | Software como Serviço.                                         |
-| Máquina Virtual      | Computador executado por software em um servidor físico.       |
-| Escalabilidade       | Capacidade de aumentar ou reduzir recursos conforme a demanda. |
-| Elasticidade         | Ajuste automático dos recursos utilizados.                     |
-| Alta Disponibilidade | Garantia de funcionamento contínuo dos serviços.               |
-| Backup               | Cópia de segurança dos dados.                                  |
-| Disaster Recovery    | Estratégias para recuperação após falhas ou desastres.         |
+```
+Explique este conceito como se eu fosse iniciante.
 
----
+Resuma este documento em tópicos.
 
-🚀 Prompts Reutilizáveis
+Crie um mapa mental sobre este assunto.
 
-* Explique este conteúdo utilizando linguagem simples.
-* Resuma o documento em tópicos.
-* Crie um mapa mental em texto.
-* Gere um glossário dos principais conceitos.
-* Elabore 10 questões de múltipla escolha sobre o tema.
-* Compare dois conceitos utilizando uma tabela.
-* Apresente exemplos práticos utilizados por empresas.
-* Liste as melhores práticas relacionadas ao assunto.
+Compare conceitos utilizando uma tabela.
+
+Crie perguntas de revisão com respostas.
+
+Apresente exemplos utilizados no mercado.
+```
 
 ---
 
-✅ Conclusão
+# ✅ Conclusão
 
-O uso do NotebookLM demonstrou como a Inteligência Artificial pode apoiar o aprendizado ativo, facilitando a organização de informações, a revisão de conteúdos e a criação de materiais personalizados de estudo. A experiência permitiu consolidar conhecimentos sobre Computação em Nuvem e Infraestrutura e desenvolver habilidades de pesquisa, curadoria de fontes e engenharia de prompts.
+Este projeto demonstrou como a Inteligência Artificial pode ser utilizada como uma ferramenta de aprendizagem, auxiliando na pesquisa, organização e revisão de conteúdos técnicos.
+
+O uso do NotebookLM permitiu desenvolver não apenas conhecimento sobre Computação em Nuvem e Infraestrutura, mas também habilidades de Engenharia de Prompts, análise crítica e organização do conhecimento.
 
 ---
 
-👨‍💻 Autor Luis Miguel Cintra Silva
+## 👨‍💻 Autor
 
-Projeto desenvolvido como parte do desafio de projeto da DIO.
+Projeto desenvolvido como desafio da DIO.
+
+Tema:
+**Computação em Nuvem e Infraestrutura ☁️**
